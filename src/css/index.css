@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.auth-main {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+}
+
+.modal_propio {
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.modal_container {
+  min-width: 400px;
+  padding: 20px;
+  border-radius: 7px;
+  background: #fff;
+  border: 1px solid #ccc;
+}
+
+.modal_container label {
+  display: flex;
+  width: 100%;
+}
+
+.modal_container img {
+  width: 100px;
+}
+
+.modal_footer {
+  padding-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
